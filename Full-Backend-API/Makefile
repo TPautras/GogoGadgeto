@@ -16,5 +16,11 @@ migrate-up:
 migrate-down:
 	@go run cmd/migrate/main.go down
 
+migrate-drop:
+	@go run cmd/migrate/main.go drop
+
+migrate-version:
+	@go run cmd/migrate/main.go version
+
 %:
 	@:

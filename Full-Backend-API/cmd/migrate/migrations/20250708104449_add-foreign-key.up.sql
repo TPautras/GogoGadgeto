@@ -1,0 +1,2 @@
+ALTER TABLE orders 
+ADD `productId` INT UNSIGNED NOT NULL;
